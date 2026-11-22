@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+dashboard_state.json
+state.json
+*.log
+部署说明.md

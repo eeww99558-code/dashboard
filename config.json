@@ -1,0 +1,26 @@
+{
+  "portfolio_id": "5075281354358777856",
+  "nickname": "熬鹰资本",
+  "poll_interval": 3,
+  "history_size": 100,
+  "order_size": 50,
+  "performance_range": "30D",
+  "position_refresh_rounds": 3,
+  "new_trade_pages": 5,
+  "lifecycle_refresh_rounds": 6,
+  "lifecycle_trade_pages": 15,
+  "state_file": "state.json",
+  "notify": {
+    "windows_toast": true,
+    "sound": true,
+    "alert_window_sec": 30,
+    "_comment": "alert_window_sec: 同品种同方向多少秒内只弹窗/响一次。日志仍记录每一笔"
+  },
+  "copy": {
+    "enabled": false,
+    "dry_run": true,
+    "notional_usdt": 20,
+    "cooldown_sec": 60,
+    "_comment": "cooldown_sec: 同品种同方向多少秒内只跟一次。熬鹰一开仓常几十笔碎单，建议 >=60"
+  }
+}
